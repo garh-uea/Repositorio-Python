@@ -22,12 +22,9 @@ print("Matriz generada automáticamente:")
 for fila in matriz:
     print(" ".join(f"{num:2}" for num in fila))
 
-# Ordenamos la matriz utilizando el método Bubble Sort
+# Ordenamos cada fila de la matriz utilizando la función sort()
 for i in range(len(matriz)):
-    for j in range(len(matriz[i])):
-        for k in range(len(matriz[i])-1):
-            if matriz[i][k] > matriz[i][k+1]:
-                matriz[i][k], matriz[i][k+1] = matriz[i][k+1], matriz[i][k]
+    matriz[i].sort()
 
 
 # Mostramos la matriz ordenada
