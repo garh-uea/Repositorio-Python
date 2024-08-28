@@ -28,16 +28,15 @@ valor_buscado = int(input("Ingresa el valor que deseas buscar en la matriz: "))
 # Inicializamos una variable para verificar si encontramos el valor
 encontrado = False
 
-# Recorremos la matriz para buscar el valor
+# Recorremos la matriz para buscar el valor utilizando el método index
 for i in range(len(matriz)):
-    for j in range(len(matriz[i])):
-        if matriz[i][j] == valor_buscado:
-            print(f"Valor {valor_buscado} encontrado en la posición ({i}, {j})")
-            encontrado = True
-            break
-    if encontrado:
+    # Buscamos el valor en la fila actual
+    if valor_buscado in matriz[i]:
+        j = matriz[i].index(valor_buscado) # Almacena en j la posición de la columna donde se encuentra el valor
+        print(f"Valor {valor_buscado} encontrado en la posición ({i}, {j})")
+        encontrado = True
         break
 
 # Si el valor no se encontró, mostramos un mensaje
-if not encontrado:
+if encontrado == False:
     print(f"Valor {valor_buscado} no se encuentra en la matriz.")
