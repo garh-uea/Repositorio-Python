@@ -1,4 +1,4 @@
-# Matriz 3D de temperaturas diarias en varias ciudades
+# Matriz 3D de Temperaturas diarias en varias ciudades
 temperaturas = [
     [   # Guayaquil
         [   # Semana 1
