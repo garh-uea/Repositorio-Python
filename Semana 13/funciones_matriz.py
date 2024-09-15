@@ -47,7 +47,6 @@ def calcular_y_mostrar_promedios(temperaturas, ciudades):
     indice_ciudad = 0  # Variable para llevar el control del índice de las ciudades.
     for ciudad_temperaturas in temperaturas:  # Bucle para iterar sobre las temperaturas de cada ciudad.
         print(f"\nPromedio de temperaturas en {ciudades[indice_ciudad]}:")
-
         indice_semana = 0  # Variable para llevar el control del índice de las semanas.
         for semana_temperaturas in ciudad_temperaturas:  # Bucle para iterar sobre las temperaturas de cada semana.
             suma_temperaturas = 0
