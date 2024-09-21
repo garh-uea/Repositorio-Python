@@ -4,7 +4,6 @@ def calcular_descuento(monto, porcentaje_descuento=10):
     monto_con_descuento = monto - descuento
     return monto_con_descuento, descuento  # Devuelve el monto del descuento calculado y el descuento obtenido por la compra.
 
-
 def procesar_cliente():
     while True:
         # Inicializar variables
@@ -58,7 +57,6 @@ def procesar_cliente():
         if nuevo_cliente != 's':
             print("Fin del programa.")
             break
-
 
 # Ejecutar el programa
 procesar_cliente()  # Llama a la función principal para iniciar la ejecución del programa.
