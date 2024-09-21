@@ -23,8 +23,7 @@ def procesar_cliente():
             producto = input(f"Ingrese el nombre del producto {num_productos}: ")
 
             valor_producto = input(f"Ingrese el valor del producto {producto}: ")  # Ingresar el valor del producto
-            while not valor_producto.replace('.', '', 1).isdigit() or valor_producto.count(
-                    '.') > 1:  # Valida que el valor del producto sea numérico
+            while not valor_producto.replace('.', '', 1).isdigit() or valor_producto.count('.') > 1:  # Valida que el valor del producto sea numérico
                 print("Por favor, ingrese un valor numérico válido para el precio del producto.")
                 valor_producto = input(f"Ingrese el valor del producto {producto}: ")
             valor_producto = float(valor_producto)
