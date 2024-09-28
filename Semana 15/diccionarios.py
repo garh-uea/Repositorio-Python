@@ -12,7 +12,6 @@ informacion_personal = {
 # Imprimir el diccionario Inicial
 print("************************* Datos del Usuario*************************\n", informacion_personal)
 
-
 # Acceder y modificar el valor de la clave "ciudad de residencia"
 nueva_ciudad = input("Ingrese la nueva Ciudad de Residencia: ")
 informacion_personal["Ciudad de residencia"] = nueva_ciudad
