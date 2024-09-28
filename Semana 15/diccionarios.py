@@ -10,7 +10,7 @@ informacion_personal = {
 }
 
 # Imprimir el diccionario Inicial
-print("************************ Datos del Usuario************************\n", informacion_personal)
+print("************************* Datos del Usuario*************************\n", informacion_personal)
 
 
 # Acceder y modificar el valor de la clave "ciudad de residencia"
@@ -30,4 +30,4 @@ if "Teléfono" not in informacion_personal:
 del informacion_personal["Edad"]
 
 # Imprimir el diccionario resultante
-print("\n*********************Datos Finales del Usuario:*********************\n", informacion_personal)
+print("\n**********************Datos Finales del Usuario:**********************\n", informacion_personal)
