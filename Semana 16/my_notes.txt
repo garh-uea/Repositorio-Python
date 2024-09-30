@@ -1,0 +1,5 @@
+Nombres: Gustavo Rodríguez
+Edad: 40 años
+Profesión: Ingeniero en TIC
+Ciudad de Residencia: Tena
+e-mail: ec_garh@hotmail.com
